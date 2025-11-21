@@ -8,7 +8,11 @@
 */
 
 // Add your code right below, good luck!
-
+var firstName="Carlos", lastName="Stevenson"
+var thisYear=1965, birthYear=1947
+var fullName = firstName+" "+lastName
+var age=thisYear-birthYear
+var greeting ="Hello! My name is " + fullName + " and I am "+age+" years old." 
 
 
 
