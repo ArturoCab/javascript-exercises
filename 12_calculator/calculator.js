@@ -38,7 +38,7 @@ const factorial = function(a) {
   if(a==1) return 1;
   let acc=a;
 	
-  for(let iterator=a-1; iterator>0; iterator--){
+  for(let iterator=a-1; iterator>1; iterator--){
     acc*=iterator;
   }
   return acc;
